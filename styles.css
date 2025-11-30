@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-top, .head-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 200px;
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.head-left, .head-right {
+    width: 50%;
+}
+
+.head-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height: 200px;
+}
