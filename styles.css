@@ -1,7 +1,8 @@
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "roboto";
 }
 
 body {
@@ -12,17 +13,38 @@ body {
 .head {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero-sec {
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .head-top, .head-bottom {
+    margin: 20px 200px;
+    gap: 50px;
+}
+
+.head-top {
     display: flex;
     justify-content: space-between;
-    margin: 20px 200px;
-    gap: 20px;
 }
 
 .head-bottom {
-    align-items: flex-start;
+    display: flex;
+    gap: 100px;
 }
 
 ul {
@@ -33,6 +55,14 @@ ul {
 
 .head-left, .head-right {
     width: 50%;
+    margin: 75px 0px;
+}
+
+.head-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .head-right {
@@ -40,9 +70,14 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
-    height: 200px;
+    color: #1F2937;
 }
 
-h1 {
-    margin: 0;
+button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: 800;
 }
