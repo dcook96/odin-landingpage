@@ -141,3 +141,25 @@ h2 {
     font-weight: 800;
     align-self: flex-end;
 }
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-container {
+    margin: 50px 200px;
+    padding: 35px 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+
+.signup {
+    border: 1px solid white;
+}
