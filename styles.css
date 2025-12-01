@@ -83,5 +83,41 @@ button {
 }
 
 .content {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+    gap: 40px;
+}
+
+h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    gap: 20px;
+}
+
+.content-bottom {
+    display: flex;
+    gap: 50px;
+}
+
+.content-box {
+    height: 140px;
+    width: 140px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+.content-text {
+    text-align: center;
 }
